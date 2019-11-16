@@ -9,3 +9,5 @@ edition = "2018"
 [dependencies]
 rocket = "0.4.2"
 rocket_contrib = "0.4.2"
+diesel = { version = "1.4.3", features = ["sqlite"] }
+dotenv = "0.15.0"
